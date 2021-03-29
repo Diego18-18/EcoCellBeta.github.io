@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2d5968;
+    color: #ffffff;
+    background-color: #2d5968;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23ffffff' fill-opacity='0.01'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.cabecera {
+    width: 90%;
+    margin: auto;
+}
+
+/* NAVEGACION */
+.navegación {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.logo-navegación {
+    width: 100px;
+}
+
+.navegación ul {
+    display: flex;
+}
+
+.navegación ul li {
+    padding: 20px;
+}
+
+.navegación ul li a {
+    padding: 3px;
+}
+
+.navegación ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.navegación ul.categorías {
+    flex: 1;
+    margin-left: 0%;
+}
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/* BIENVENIDA */
+.bienvenida {
+    width: center;
+    height: 450px;
+    background: url('./Imagenes/Fondo\ líneas.jpg') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+/* GRUPOS */
+
+/* GRUPO1 */
+.grupo1 {
+    width: 450px;
+    height: 400px;
+    background: url('./Imagenes/Quienes\ Somos.png') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: left;
+    color: black;
+}
+
+/* GRUPO2 */
+.grupo2 {
+    width: 450px;
+    height: 400px;
+    background: url('./Imagenes/Productos2.0.png') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: right;
+    color: black;
+}
+
+/* GRUPO3 */
+.grupo3 {
+    width: 450px;
+    height: 400px;
+    background: url('./Imagenes/Servicios2.0.png') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: left;
+    color: black;
+}
+
+/* GRUPO4 */
+.grupo4 {
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: right;
+    color: black;
+}
+
+.UBCC {
+    background: #a1a1a1;
+}
+
+/* SOCIAL */
+.social {
+    margin: 50px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 3rem;
+}
+
+/* FOOTER LINKS */
+.footer-links {
+    background: #2f3640;
+    color: #616161;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.footer-almacen {
+    display: grid;
+    grid-template-columns: repeat(1 fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-almacen ul {
+    margin: 0 auto;
+}
+
+.footer-almacen ul li {
+    line-height: 2.8;
+}
+
+.footer {
+    background: #2f3640;
+    color: #616161;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .navegación ul.categorías {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .navegación ul.categorías.up {
+        transform: translateX(-20px);
+    }
+
+    .navegación ul.categorías li {
+        padding: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* GRUPOS */
+
+    /* GRUPO1 */
+    .grupo1 {
+        width: 450px;
+        height: 400px;
+        background: url('./Imagenes/Quienes\ Somos.png') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: center;
+        color: black;
+    }
+
+    /* GRUPO2 */
+    .grupo2 {
+        width: 450px;
+        height: 400px;
+        background: url('./Imagenes/Productos2.0.png') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO3 */
+    .grupo3 {
+        width: 450px;
+        height: 400px;
+        background: url('./Imagenes/Servicios2.0.png') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO4 */
+    .grupo4 {
+        width: 450px;
+        height: 400px;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    .UBCC {
+        background: #a1a1a1;
+        text-align: center;
+    }
+
+    .footer-links .footer-almacen {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 500px) {
+    /* GRUPOS */
+
+    /* GRUPO1 */
+    .grupo1 {
+        width: 300px;
+        height: 300px;
+        background: url('./Imagenes/Quienes\ Somos.png') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: center;
+        color: black;
+    }
+
+    /* GRUPO2 */
+    .grupo2 {
+        width: 300px;
+        height: 300px;
+        background: url('./Imagenes/Productos2.0.png') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO3 */
+    .grupo3 {
+        width: 300px;
+        height: 300px;
+        background: url('./Imagenes/Servicios2.0.png') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO4 */
+    .grupo4 {
+        width: 300px;
+        height: 350px;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    .UBCC {
+        background: #a1a1a1;
+        text-align: center;
+    }
+}
